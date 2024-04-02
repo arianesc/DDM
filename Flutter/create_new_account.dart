@@ -25,28 +25,36 @@ class CreateAccountScreen extends StatelessWidget {
       body: Center(
         child: Padding(
           padding: EdgeInsets.all(20.0),
+          
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Text(
-                'Create New \nAccount',
-                 textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 24.0,
-                  fontWeight: FontWeight.bold,
+              Align(
+                alignment: Alignment.center,
+                child: Text(
+                  'Create New \nAccount',
+                   textAlign: TextAlign.center,
+                   style: TextStyle(
+                     fontSize: 24.0,
+                     fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
               SizedBox(height: 20.0),
-              
-              Text(
-                'Already Registered? Log in here.',
+              Align(
+                alignment: Alignment.center,
+                child: Text(
+                  'Already Registered? Log in here.',
                 style: TextStyle(
-                  fontSize: 14.0,
+                    fontSize: 14.0,
+                  ),
                 ),
-              ),
+             ),
               SizedBox(height: 80.0),
+             
              Text(
                 'NAME',
-               textAlign: TextAlign.left,
+               textAlign: TextAlign.right,
                 style: TextStyle(
                   fontSize: 14.0,
                 ),

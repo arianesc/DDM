@@ -25,24 +25,30 @@ class LoginScreen extends StatelessWidget {
       body: Center(
         child: Padding(
           padding: EdgeInsets.all(20.0),
+          
           child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+
             children: <Widget>[
-              Text(
+              Align(
+                alignment: Alignment.center,
+              child:Text(
                 'Login',
                  textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 24.0,
                   fontWeight: FontWeight.bold,
                 ),
-              ),
+              ),),
               SizedBox(height: 20.0),
-              
-              Text(
+              Align(
+                alignment: Alignment.center,
+              child:Text(
                 'Sign in to continue',
                 style: TextStyle(
                   fontSize: 14.0,
                 ),
-              ),
+              ),),
               SizedBox(height: 80.0),
              Text(
                 'EMAIL',
