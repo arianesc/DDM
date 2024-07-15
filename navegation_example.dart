@@ -180,7 +180,7 @@ class CreateAccountScreen extends StatelessWidget {
               
               TextFormField(
                 decoration: InputDecoration(
-                  labelText: 'Ariane Silveira',
+                  labelText: 'Your name',
                   border: OutlineInputBorder(),
                 ),
               ),
@@ -197,7 +197,7 @@ class CreateAccountScreen extends StatelessWidget {
               
               TextFormField(
                 decoration: InputDecoration(
-                  labelText: 'ariane@email.com',
+                  labelText: 'email@email.com',
                   border: OutlineInputBorder(),
                 ),
               ),
